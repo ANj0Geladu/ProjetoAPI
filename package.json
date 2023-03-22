@@ -1,0 +1,30 @@
+{
+  "name": "projetoapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src.index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev ./lock/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANj0Geladu/ProjetoAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ANj0Geladu/ProjetoAPI/issues"
+  },
+  "homepage": "https://github.com/ANj0Geladu/ProjetoAPI#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "global": "^4.4.0",
+    "nodemon": "^2.0.21"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.2"
+  }
+}
